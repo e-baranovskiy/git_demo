@@ -35,6 +35,8 @@ public class Translator {
                 break;
             case "heat":
                 System.out.println(" -> жара");
+            case "snow":
+                System.out.println(" -> снег");
             default:
                 System.out.println("Попробуйте другое слово");
         }
